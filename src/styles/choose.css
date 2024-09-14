@@ -1,0 +1,39 @@
+.icon_choose {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContainer {
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  box-shadow: inset 1px 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.Rock {
+  background-image: var(--Rock-Gradient);
+}
+
+.Scissors {
+  background-image: var(--Scissors-Gradient);
+}
+
+.Paper {
+  background-image: var(--Paper-Gradient);
+}
+.Lizard {
+  background-image: var(--Lizard-Gradient);
+}
+.Spock {
+  background-image: var(--Cyan-Gradient);
+}

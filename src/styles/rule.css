@@ -1,0 +1,44 @@
+.ruleContainer {
+  text-align: right;
+}
+.ruleContainer button {
+  outline: none;
+  border: 2px solid var(--Header);
+  color: var(--Header);
+  border-radius: 10px;
+  background: inherit;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 100;
+}
+.modal .text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--Score);
+}
+
+.modal .text svg {
+  cursor: pointer;
+}
+
+.ruleContainer {
+  text-align: center;
+}
