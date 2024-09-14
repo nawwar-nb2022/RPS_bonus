@@ -28,7 +28,7 @@ const Header = () => {
             <div className="score">
                     <p className="text">score</p>
                     <p className="res">
-                        {count}
+                        {count ? count : "0"}
                     </p>
             </div>
 
