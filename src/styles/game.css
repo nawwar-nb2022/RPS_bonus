@@ -1,6 +1,6 @@
 .GameContainer {
   width: min(90%, 500px);
-  min-height: 50vh;
+  min-height: min(50vh, 375px);
   position: relative;
   margin: 50px auto;
   display: flex;
